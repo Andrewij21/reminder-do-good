@@ -103,32 +103,6 @@ Reminder Do Good is a simple yet powerful app that encourages users to perform s
 - Subtle hover effects
 - Floating action buttons
 
-## 📂 Project Structure
-
-\`\`\`
-reminder-do-good/
-├── app/
-│ ├── layout.tsx # Main layout with navigation
-│ ├── page.tsx # Home page with daily kindness card
-│ ├── globals.css # Global styles and design tokens
-│ ├── stats/
-│ │ └── page.tsx # Statistics and progress page
-│ ├── about/
-│ │ └── page.tsx # About mission and vision
-│ └── share/
-│ └── [id]/
-│ └── page.tsx # Shareable kindness page
-├── components/
-│ ├── navigation.tsx # Navigation bar
-│ ├── kindness-card.tsx # Daily kindness card component
-│ ├── share-dialog.tsx # Share functionality
-│ └── ui/ # shadcn/ui components
-├── lib/
-│ ├── store.ts # Zustand state management
-│ └── kindness-data.ts # Kindness suggestions data
-└── public/ # Static assets
-\`\`\`
-
 ## 💡 How to Use
 
 ### 1. Get Your Daily Kindness Reminder
